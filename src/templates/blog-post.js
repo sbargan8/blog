@@ -51,12 +51,8 @@ class BlogPostTemplate extends React.Component {
           content={post.description}
         />
         <div className={styles.container}>
-          <span className={styles.meta}>
-            {post.author?.name} &middot;{' '}
-            <time dateTime={post.rawDate}>{post.publishDate}</time> –{' '}
-            {timeToRead} minute read
-          </span>
           <div className={styles.article}>
+            <time dateTime={post.rawDate}>{post.publishDate}</time>
             <div className={styles.body}>
               {post.body?.raw && renderRichText(post.body, options)}
             </div>

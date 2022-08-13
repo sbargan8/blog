@@ -1,13 +1,10 @@
 .meta {
-  font-family: var(--font-serif);
   font-size: var(--text-lg);
-  font-style: italic;
   margin: 0 auto 1em;
   max-width: var(--size-max-width);
   padding-bottom: var(--size-gutter);
-  padding-left: var(--size-gutter);
   position: relative;
-  top: -1em;
+  top: -2em;
 }
 
 .article {
@@ -41,7 +38,7 @@
 .article h1,
 .article h2 {
   font-size: var(--text-2xl);
-  margin-top: var(--space-3xl);
+  margin-top: var(--space-1xl);
 }
 
 .article h3,
