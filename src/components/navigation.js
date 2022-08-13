@@ -8,18 +8,6 @@ const Navigation = () => (
     <Link to="/" className={styles.logoLink}>
       <span className={styles.navigationItem}>Bargan Blog</span>
     </Link>
-    <ul className={styles.navigation}>
-      <li className={styles.navigationItem}>
-        <Link to="/" activeClassName="active">
-          Home
-        </Link>
-      </li>
-      <li className={styles.navigationItem}>
-        <Link to="/blog/" activeClassName="active">
-          Blog
-        </Link>
-      </li>
-    </ul>
   </nav>
 )
 
