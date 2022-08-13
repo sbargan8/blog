@@ -51,13 +51,6 @@ export const pageQuery = graphql`
           raw
         }
         title
-        heroImage: image {
-          gatsbyImage(
-            layout: CONSTRAINED
-            placeholder: BLURRED
-            width: 1180
-          )
-        }
       }
     }
   }
