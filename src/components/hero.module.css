@@ -66,6 +66,6 @@
 
   .details {
     left: var(--size-gutter);
-    padding: var(--space-3xl) 0 0;
+    padding: var(--space-3xl) var(--size-gutter) 0 0;
   }
 }
